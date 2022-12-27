@@ -1,0 +1,47 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.login_container {
+    margin-top: 70px;
+}
+
+.container .switch-btn {
+    margin-top: 20px;
+}
+
+.container .switch-btn p {
+    font-size: .9em;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* media query */
+
+@media (max-width: 450px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+}
